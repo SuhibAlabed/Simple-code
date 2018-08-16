@@ -1,0 +1,17 @@
+Enter the class main 
+======================.
+public Button but2;
+
+    public void init2(){
+        but2=(Button)findViewById(R.id.but2);
+        but2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toy2 = new Intent (Main2Activity.this,Main3Activity.class);
+                startActivity(toy2);
+            }
+        });
+
+Enter the Method main write 
+=======================.
+init2();
